@@ -1,13 +1,12 @@
 import React from 'react'
 import {View,Text, Image,ScrollView} from 'react-native'
 import firebase from 'firebase'
-import moment from 'moment'
+
 
 
 const MoreHistory = ({HistoryItem}) =>{
    const{place_name,SenderName,date,month,min,hours,sec}=HistoryItem
-   const day=moment(date).format("dddd")
-   const time=moment.utc(`${hours,min,sec}`).startOf('seconds').fromNow()
+ 
 
    
         
@@ -19,7 +18,7 @@ const MoreHistory = ({HistoryItem}) =>{
                UserName {SenderName}
             </Text>
             <Text style={{fontSize:15,fontWeight:'bold'}}>
-               Date {date}/{}/{6}/2020
+               Date {date}/{6}/2020
             </Text>
            
     </View>

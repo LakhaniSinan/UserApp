@@ -17,6 +17,18 @@ const UserManual = () =>{
            </View>
            <View>
                <Text style={{textAlign:'center',fontSize:20,fontWeight:'bold',marginTop:10}}>Step For Complain/LostAndFound/History Checking</Text>
+               <Text>1) Open the side drawer there you will find every option</Text>
+               <Text>2) You Can check your sent alerts in history tab</Text>
+               <Text>3) You can Complain or give suggestions inside the Complain tab</Text>
+               <Text>4) You can report/view lost and found items</Text>
+           </View>
+           <View>
+               <Text style={{textAlign:'center',fontSize:20,fontWeight:'bold',marginTop:10}}>Consequences For Multiple things</Text>
+               <Text style={{textAlign:'center',fontSize:18,fontWeight:'bold',marginTop:10}}>1) Sending Worng Alert</Text>
+               <Text style={styles.StyleToApp}>First It will be a warning second time 3 months of imprisionment with 10000 fine</Text>
+               <Text style={{textAlign:'center',fontSize:18,fontWeight:'bold',marginTop:10}}>2 Sending Fake Lost And found</Text>
+               <Text style={styles.StyleToApp}> Fine of 30000</Text>
+               
            </View>
         </ScrollView>
     )

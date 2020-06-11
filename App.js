@@ -91,6 +91,13 @@ const styles = {
 
 
 const AuthStack=createStackNavigator({
+
+    LoginForm:{screen:LoginForm,
+        navigationOptions:{
+          headerTitle:null,
+          header:null  
+        }
+    },
     UserManual:{screen:UserManual,
         navigationOptions:{
             headerStyle:{
@@ -104,12 +111,6 @@ const AuthStack=createStackNavigator({
             }
     
     },
-    LoginForm:{screen:LoginForm,
-        navigationOptions:{
-          headerTitle:null,
-          header:null  
-        }
-    },
     
     SignUp:{screen:SignUp,
     navigationOptions:{
@@ -121,7 +122,6 @@ const AuthStack=createStackNavigator({
     
     },
 
-        
         
 })
 
